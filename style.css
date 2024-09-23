@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    /*altera a margem do site */
+    padding: 0%;
+    /*altera o espaço do site  */
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /*altera a letra no site   */
+    line-height: 1.6;
+    /*altera os espaços dos paragrafos */
+    background-color: #D9D9D9;
+}
+
+nav {
+    position: fixed;
+    top:0%;
+    width: 100%;
+     background-color:#dadae26b ; /*altera a cor do site */
+     padding:20px 0 ;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+
+
+
+nav ul li a { 
+    color: rgb(253, 249, 249);
+    text-decoration: none;
+ font-size: 18px;
+padding: 10px ;
+transform:color 0.3s;
+
+ }
+
+ nav ul li a:hover{
+    color: #7a7a7a;
+ }
+
+
+
+section:not(#home) {
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#home {
+    /* background-color: #858383; */
+    background-image: url(https://i.ytimg.com/vi/fU5pxdqnvls/maxresdefault.jpg); 
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: color(srgb red green blue);
+    height:100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  
+     align-items: center;/*para deixar o texto no centro */
+    font-size: 1.5em;
+
+}
+#home h1 {
+    margin-top: 100px;
+    color: #1a1919;
+    /* text-shadow: 1px 1px 1px black; */
+    
+}
+#home p{
+    /* background-color: #0c0c0c3f; */
+    color: #cecece;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content img {
+     width: 400px;/* largura */
+    height: 300px; /* altuara */
+    object-fit: cover;
+    margin-right: 20px ;
+    border-radius: 8px;
+
+}
+
+.content .text {
+    max-width: 600px;
+    text-align: left;
+}
+
+content .text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #0c0c0c;
+
+}
+
+.content .text p {
+    font-size: 1.1em;
+    color: #202020;
+}
+
+#services {
+    background-color: #D9D9D9;
+    /* background-image: url(https://i.pinimg.com/736x/07/59/21/075921f22af0a7011b565d07f1836872--tomy-cocktails.jpg) ; */
+}
+
+#about {
+    background-color: #d1cfcf;
+}
+
+#contac {
+    background-color: #b8b4b4;
+}
+
+
+.cta-button {
+    margin-top: 30px;
+    background-color: #fffdfd;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 1s ease, tranform 1s ease;
+
+
+}
+
+
+.cta-button:hover{
+    box-shadow: 0px 1px 3px black;
+}
